@@ -1,0 +1,17 @@
+{
+  "name": "oda-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "vedmalex@gmail.com",
+  "scripts": {
+    "doc:dev": "vuepress dev",
+    "doc:build": "vuepress build",
+    "doc:eject": "vuepress eject"
+  },
+  "devDependencies": {
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-mermaid": "^0.2.5",
+    "vuepress": "^0.7.0"
+  }
+}
