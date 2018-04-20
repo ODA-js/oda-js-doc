@@ -10,8 +10,12 @@
     "doc:eject": "vuepress eject"
   },
   "devDependencies": {
+    "markdown-it-checkbox": "^1.1.0",
     "markdown-it-footnote": "^3.0.1",
     "markdown-it-mermaid": "^0.2.5",
     "vuepress": "^0.7.0"
+  },
+  "dependencies": {
+    "markdown-it-classy": "^0.2.0"
   }
 }
