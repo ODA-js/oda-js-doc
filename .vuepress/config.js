@@ -29,7 +29,17 @@ module.exports = {
           }
         ],
         sidebar: {
-          '/guide/': genSidebarConfig('Guide')
+          '/guide/': [
+            {
+              title: 'Guide',
+              collapsable: false,
+              children: [
+                '',
+                'getting-started',
+                'project-structure',
+              ]
+            }
+          ]
         }
       },
       '/ru/': {
@@ -52,17 +62,4 @@ module.exports = {
         .use(require('markdown-it-checkbox'))
     }
   },
-}
-
-function genSidebarConfig(title) {
-  return [
-    {
-      title,
-      collapsable: false,
-      children: [
-        '',
-        'getting-started',
-      ]
-    }
-  ]
 }
